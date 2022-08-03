@@ -49,7 +49,7 @@ Course :
 <label>   
 Semester:  
 </label>   
-<select>  
+<select id="semesterDropdown">  
 <option value="Year">Semester</option> 
 <option value="1">1Semester</option>  
 <option value="2">2Semester</option>  
@@ -63,21 +63,20 @@ Semester:
 <label>   
 Gender :  
 </label><br>  
-<input id="male" type="radio" name="gender"/> Male <br>  
-<input id="female" type="radio" name="gender"/> Female <br>  
-<input id="other" type="radio" name="gender"/> Other  
+<input id="maleRadio" type="radio" name="gender"/> Male <br>  
+<input id="femaleRadio" type="radio" name="gender"/> Female <br>  
+<input id="otherRadio" type="radio" name="gender"/> Other  
 <br>  
 <br>  
   
 <label>   
 Phone :  
 </label>  
-<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="countryCode"  value="+91" size="2"/>   
 <input type="text" name="phone" size="10"/> <br> <br>  
 Address  
 <br>  
-<textarea cols="30" rows="2" value="address">  
-</textarea>  
+<input type="text" name="address" size="40"/>
 <br> <br>  
 Email:  
 <input type="email" id="email" name="email"/> <br>    
