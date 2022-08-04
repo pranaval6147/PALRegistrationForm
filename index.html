@@ -14,11 +14,6 @@ body {
   background-size: cover;
 }
 </style>
-<script type="text/javascript">
-function fun(){
-alert("This form has been submied");
-}
-</script>
 </head> 
 <body bgcolor="LightGray">  
 <center><h1>Registration Page </h1></center>
@@ -41,7 +36,7 @@ Course :
 <option name="bca" value="BCA">BCA</option>  
 <option name="bba" value="BBA">BBA</option>  
 <option name="mba" value="MBA">MBA</option>  
-<option value="mca">MCA</option>   
+<option name="mca" value="mca">MCA</option>   
 </select>  
 <br>  
 <br>  
@@ -51,12 +46,12 @@ Semester:
 </label>   
 <select id="semesterDropdown">  
 <option value="Year">Semester</option> 
-<option value="1">1Semester</option>  
-<option value="2">2Semester</option>  
-<option value="3">3Semester</option>  
-<option value="4">4Semester</option>  
-<option value="5">5Semester</option>  
-<option value="6">6Semester</option>  
+<option value="1">1Sem</option>  
+<option value="2">2Sem</option>  
+<option value="3">3Sem</option>  
+<option value="4">4Sem</option>  
+<option value="5">5Sem</option>  
+<option value="6">6Sem</option>  
 </select>  
 <br>  
 <br>
@@ -82,7 +77,7 @@ Email:
 Password:  
 <input type="Password" id="pass" name="pass"> <br>   
 <br> <br>
-<input type="submit" id="submitButton" value="SUBMIT" onclick="fun();"></input>
+<input type="submit" id="submitButton" value="SUBMIT"></input>
 <button id="formReset">RESET</button>  
 </center>
 </form>  
